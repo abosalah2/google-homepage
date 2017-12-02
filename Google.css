@@ -1,16 +1,71 @@
-div.position {
-    position: relative;
-    left: 30px;
-    border: 3px solid #73AD21;
+
+.display{
+  padding-top: 120px;
+  padding-left: 0px;
+  height: 92px;
+  width: 272px;
+  display: block;
+
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
+
+center{
+  display: block;
+text-align: -webkit-center;
 }
 
-li a {
-    display: block;
+#buttons{
+  background-color: #e7e7e7; color: black;
+background: #ddd;}
+
+
+.form{
+  position: absolute;
+  bottom: 240px;
+  right: 330px;
+
+}
+
+
+
+.Bottons {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  color: #757575;
+  cursor: default;
+  height: 37px;
+    line-height: 20px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.upper_list{
+position: absolute;
+bottom: 840px;
+right: 10px;
+}
+
+
+
+ul li{
+list-style-type: none;
+display: inline;
+padding: 10px;
+position: relative;
+top: 260px;
+right: 40px;
+}
+
+
+.mic_img{
+position: relative;
+top: -55px;
+right: -890px;
 }
